@@ -1,0 +1,26 @@
+name: github.com/opspec-pkgs/npm.pkg.set-version
+description: sets the version of an npm package
+inputs:
+  pkgDotJson:
+    file:
+      description: npm package.json file
+      default: package.json
+  version:
+    string:
+      constraints: { format: semver }
+      description: version to set
+outputs:
+  pkgDotJson:
+    file:
+      description: npm package.json file
+      default: package.json
+version: 1.0.0
+run:
+  container:
+    cmd: [ /cmd.sh ]
+    files:
+      /cmd.sh:
+      /package.json: pkgDotJson
+    envVars:
+      version:
+    image: { ref: 'node:8.1.0-alpine' }
