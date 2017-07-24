@@ -1,9 +1,13 @@
+[![Build Status](https://travis-ci.org/opspec-pkgs/npm.pkg.set-version.svg?branch=master)](https://travis-ci.org/opspec-pkgs/npm.pkg.set-version)
+
 # Problem statement
+
 sets the version of an npm package
 
 # Example usage
 
-> note: in examples, VERSION represents a version of the npm.pkg.set-version pkg
+> note: in examples, VERSION represents a version of the
+> npm.pkg.set-version pkg
 
 ## install
 
@@ -31,8 +35,10 @@ op:
 
 # Support
 
-join us on [![Slack](https://opspec-slackin.herokuapp.com/badge.svg)](https://opspec-slackin.herokuapp.com/)
-or [open an issue](https://github.com/opspec-pkgs/npm.pkg.set-version/issues)
+join us on
+[![Slack](https://opspec-slackin.herokuapp.com/badge.svg)](https://opspec-slackin.herokuapp.com/)
+or
+[open an issue](https://github.com/opspec-pkgs/npm.pkg.set-version/issues)
 
 # Releases
 
@@ -43,4 +49,5 @@ and [tagged](https://git-scm.com/book/en/v2/Git-Basics-Tagging); see
 
 # Contributing
 
-see [project/CONTRIBUTING.md](https://github.com/opspec-pkgs/project/blob/master/CONTRIBUTING.md)
+see
+[project/CONTRIBUTING.md](https://github.com/opspec-pkgs/project/blob/master/CONTRIBUTING.md)
