@@ -20,7 +20,7 @@ run:
     cmd: [ /cmd.sh ]
     files:
       /cmd.sh:
-      /package.json: pkgDotJson
+      /package.json: $(pkgDotJson)
     envVars:
       version:
     image: { ref: 'node:8.1.0-alpine' }
