@@ -14,7 +14,7 @@ outputs:
     file:
       description: npm package.json file
       default: package.json
-version: 1.0.0
+version: 1.1.0
 run:
   container:
     cmd: [ /cmd.sh ]
@@ -23,4 +23,4 @@ run:
       /package.json: $(pkgDotJson)
     envVars:
       version:
-    image: { ref: 'node:8.1.0-alpine' }
+    image: { ref: 'node:9.5.0-alpine' }

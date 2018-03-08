@@ -15,20 +15,20 @@ this version of the pkg is in [![opspec 0.1.5](https://img.shields.io/badge/opsp
 ## Install
 
 ```shell
-opctl pkg install github.com/opspec-pkgs/npm.pkg.set-version#1.0.0
+opctl pkg install github.com/opspec-pkgs/npm.pkg.set-version#1.1.0
 ```
 
 ## Run
 
 ```
-opctl run github.com/opspec-pkgs/npm.pkg.set-version#1.0.0
+opctl run github.com/opspec-pkgs/npm.pkg.set-version#1.1.0
 ```
 
 ## Compose
 
 ```yaml
 op:
-  pkg: { ref: github.com/opspec-pkgs/npm.pkg.set-version#1.0.0 }
+  pkg: { ref: github.com/opspec-pkgs/npm.pkg.set-version#1.1.0 }
   inputs:
     version:
     # params w/ default
